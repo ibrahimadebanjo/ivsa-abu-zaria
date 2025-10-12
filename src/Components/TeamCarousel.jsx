@@ -6,7 +6,7 @@ import { Pagination, Navigation } from "swiper/modules";
 
 import capito from "../assets/capito.jfif"
 import az from "../assets/az.jpg"
-import asiya from "../assets/asiya.jpg"
+import asiya from "../assets/Asiya.jpg"
 import kabiru from "../assets/kabiru.jpg"
 import harisu from "../assets/Harisu.jpg"
 import maryam from "../assets/Maryam.jpg"
