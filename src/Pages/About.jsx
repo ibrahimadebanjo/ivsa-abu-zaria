@@ -1,30 +1,78 @@
 import { Link } from "react-router-dom"
-import aboutImage from "../assets/Self confidence-bro.svg"
+import aboutImage from "../assets/ivsa2.jpeg"
 const About = () => {
+  const presidents = [
+"Dr.Gwotyet Dashe - Pioner President (2017)",
+"Dr. Abiodun Samuel Oluwaponmile - 2021/2022",
+"Dr. Oyeleye Blessing Simon - 2022/2023",
+"Ahmad Saheed Olaide - 2023/2024",
+"Ekwe Chinwendu Innocent - 2024/2025"
+  ]
+  const goals = [
+  "1. Advance animal welfare and veterinary education",
+  "2. Encourage cooperation among Veterinary students worldwide",
+  "3. Provide learning and exchange opportunities beyond the classroom."
+  ];
+ const membership = [
+  "1. Purchase and fill out the membership form",
+  "2. Attend Orientation",
+  "3. Complete interview",
+  "4. Pay induction fee",
+  "5. Get inducted"
+ ]
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center">
-      <img className="w-auto md:w-[55%] h-full" src={aboutImage} alt="" />
-      <div className="flex flex-col">
-        <div className="mb-10">
-<h1 className="text-green-500 text-2xl ">ABOUT ME</h1>
-<hr  />
-        </div>
-  <h2 className="text-xl mb-4  ">INTRODUCTION</h2>
-<p className="text-neutral-600 mb-4">Hi I am <span className="text-green-500">Ibrahim Adebanjo</span>, a Software  developer and a Veterinary Medical Student passionate about solving problems and creating impactful solutions. I specialize in 
-  building intuitive web applications using technologies like React, Tailwind e.t.c, with a focus on seamless user experiences. </p>
 
-<p className="text-neutral-600 mb-4">I am also expanding my expertise into ML/AI Engineering to become more versatile software professional. My background in Veterinary Medicine enhances my analytical thinking and attention to detail skills i bring into both
-  development and testing.
+    <div className="flex flex-col md:flex-row justify-between gap-3 items-center mb-10">
+      <div className="flex flex-col md:w-[70%] bg-blue-100 p-6">
+<h1 className="text-blue-500 text-2xl">ABOUT IVSA ABU ZARIA</h1>
+
+<p className="text-slate-600 mt-1 mb-2 text-sm">The International Veterinary Students Association [IVSA] is a global non-profit organization run by veterinary students in over 65 countries with more than 40,000 members.
+  founded in 1951, IVSA aims to benefit both animals and humans by promoting international veterinary education, skll exchange, and collaboration.
 </p>
 
-<p className="text-neutral-600 mb-4">I'm driven by curiosity and the desire to learn, and I'm excited to collaborate on innovative projects that make a difference.</p>
-     
-    <div className="flex mb-4 items-center justify-start">
-    <button onClick={()=>{window.open("https://drive.google.com/file/d/1HLGzUsd7lcsOf3gMxCBWb828D0KROAka/view?usp=drive_link", "_blank", "noopener,noreferrer")}} className="bg-green-100 mr-12  p-3 rounded-3xl text-gray-700">Download CV</button>
-      <Link className="border-green-500 border-2 mr-12 p-2 rounded-3xl text-gray-700" to="/contact" >Hire Me</Link>
-      </div> 
+<h2 className="text-blue-500 text-2xl">IVSA Nigeria</h2>
+<p className="text-slate-600 mt-3 mb-3 text-sm">IVSA Nigeria become an official National Member Organization [MO] on December 17, 2017, following its approval at the IVSA General Assembly in South Africa.
+  It enables Nigerian Veterinary sStudenst to participate in IVSA's global programs exchanges, congresses, and educational initiatives while promoting the association's core goals:
+</p>
+<ul className="text-slate-600 mb-1 text-sm">
+ {goals.map((goal,i) => 
+ (
+  <li key={i}>{goal}</li>
+)
+  )}
+</ul>
+
+     </div>
+     {/* next col */}
+     <div className="flex flex-col">
+      <div>
+        <img src={aboutImage} alt="" />
       </div>
+      <div className="flex flex-row gap-2">
+<div className="bg-blue-100 p-3 border border-blue-600">
+<h2 className="text-blue-500 text-lg">How To Become a Member</h2>
+<ul className="text-slate-600">
+ {membership.map((process,i) => 
+ (
+  <li key={i} className="mt-2">{process} </li>
+)
+  )}
+</ul>
+</div>
+<div className="bg-blue-100 p-3 border border-blue-600">
+  <h2  className="text-blue-500 text-lg">Past President</h2>
+<ul className="text-slate-600">
+ {presidents.map((president,i) => 
+ (
+  <li key={i}>{president}</li>
+)
+  )}
+</ul>
+</div>
+      </div>
+     </div>
     </div>
+
   )
 }
 

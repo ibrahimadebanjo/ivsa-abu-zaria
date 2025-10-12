@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <div className=" footer ">
+    <div className=" footer text-blue-800 w-[100%] ">
       <div className="footer-grid mb-4">
         <div className="flex items-center justify-start gap-2 mb-3 ">
         <i onClick={()=>{window.open("https://www.linkedin.com/in/ibrahim-adebanjo/", "_blank", "noopener,noreferrer")}} className='bx bxl-linkedin text-2xl md:text-3xl text-green-600 rounded-2xl border-2 cursor-pointer' ></i>
