@@ -11,6 +11,11 @@ import kabiru from "../assets/kabiru.jpg"
 import harisu from "../assets/Harisu.jpg"
 import maryam from "../assets/Maryam.jpg"
 import owoniyi from "../assets/Owoniyi.jpg"
+import amidu from "../assets/amidu.jpeg"
+import henry from "../assets/henry.png"
+import blessing from "../assets/blessing.jpg"
+import omeza from "../assets/omeza.jpg"
+
 
 const teamMembers = [
   {
@@ -26,12 +31,12 @@ const teamMembers = [
   {
     name: "Amidu Hassan T.",
     role: "Senior Exchange Officer",
-    image: "https://via.placeholder.com/150",
+    image:[amidu],
   },
   {
     name: "Akobe Henry O.",
     role: "Secretary General",
-    image: "https://via.placeholder.com/150",
+    image: [henry],
   },
   {
     name: "Maryam Hamman I.",
@@ -46,7 +51,7 @@ const teamMembers = [
   {
     name: "Anthony Blessing N.",
     role: "Project Manager I",
-    image: "https://via.placeholder.com/150",
+    image: [blessing],
   },
   {
     name: "Saluhudeen Asiya U.",
@@ -59,9 +64,9 @@ const teamMembers = [
     image: [az],
   },
    {
-    name: "Muhamadulfattah O.",
+    name: "Abdulkareem M.fatah",
     role: "PRC",
-    image: "https://via.placeholder.com/150",
+    image: [omeza],
   },
    {
     name: "Abubakar Harisu",
