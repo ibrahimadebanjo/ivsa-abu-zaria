@@ -60,7 +60,7 @@ const About = () => {
 </ul>
 </div>
 <div className="bg-blue-100 p-3 border border-blue-600">
-  <h2  className="text-blue-500 text-lg">Past President</h2>
+  <h2  className="text-blue-500 text-lg">IVSA ABU Past Presidents</h2>
 <ul className="text-slate-600">
  {presidents.map((president,i) => 
  (
