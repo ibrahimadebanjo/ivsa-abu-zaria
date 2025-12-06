@@ -45,7 +45,7 @@ const teamMembers = [
   },
   {
     name: "Bashir Kabiru",
-    role: "Assistant Exchange Officer",
+    role: "Assistant Secetary General",
     image: [kabiru],
   },
   {
@@ -79,7 +79,7 @@ export default function TeamCarousel() {
   return (
     <section className="py-10 bg-gray-100">
       <h2 className="text-3xl font-bold text-center mb-8 text-blue-800 font-sans">
-        Meet Our Team
+        Meet Our Executives
       </h2>
 <h4 className="text-blue-700 text-xl font-bold pl-5 mb-3"> TEAM - 2024/2025 </h4>
       <div className="max-w-6xl mx-auto px-4">
