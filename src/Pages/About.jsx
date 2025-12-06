@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import aboutImage from "../assets/ivsa2.jpeg"
+import aboutImage from "../assets/waw2025.jpg"
 const About = () => {
   const presidents = [
 "1. Abdulfatah Tayib Umar (DVM) 2018/2019",
@@ -23,7 +23,7 @@ const About = () => {
   return (
 
     <div className="flex flex-col md:flex-row justify-between gap-3 items-center mb-10">
-      <div className="flex flex-col md:w-[70%] bg-blue-100 p-6">
+      <div className="flex flex-col  md:w-[70%] bg-blue-100 p-6">
 <h1 className="text-blue-500 text-2xl">ABOUT IVSA</h1>
 
 <p className="text-slate-600 mt-1 mb-2 text-sm">The International Veterinary Students' Association [IVSA] is a global non-profit organization run by veterinary students in over 65 countries with more than 40,000 members.
@@ -45,8 +45,8 @@ const About = () => {
      </div>
      {/* next col */}
      <div className="flex flex-col">
-      <div>
-        <img src={aboutImage} alt="" />
+      <div className="mb-4">
+        <img className="h-60 w-[100%]" src={aboutImage} alt="" />
       </div>
       <div className="flex flex-row gap-2">
 <div className="bg-blue-100 p-3 border border-blue-600">

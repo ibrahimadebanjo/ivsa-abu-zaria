@@ -6,20 +6,20 @@ import plant from "../assets/plant.jpg"
 import congress from "../assets/congress25.jpg"
 import tbday from "../assets/tbday.jpg"
 import museum from "../assets/museum.jpg"
-import waaw24 from "../assets/waaw2024.jpg"
+import waw25 from "../assets/waw2025.jpg"
 import wwd from "../assets/wwd.jpg"
 import whd from "../assets/whd.jpg"
 
 export default function EventsSection() {
   const events = [
-    {
-      title: "World AMR Awareness Week",
-      date: "November 18, 2024", 
-      description: "Participating in AMR advocacy",
-      image:[waaw24],
+       {
+      title: "World Tuberculosis Day",
+      date: "March 24, 2025",
+      description: "Enlightened University community on tuberculosis",
+      image: [tbday],
     },
     {
-      title: "world Water Day",
+      title: "World Water Day",
       date: "March 24, 2025",
       description: "Enlightned people on glacia preservation",
       image:[wwd],
@@ -29,12 +29,6 @@ export default function EventsSection() {
       date: "July 28, 2025",
       description: "Created awareness on hepatitis",
       image: [whd],
-    },
-     {
-      title: "World Tuberculosis Day",
-      date: "March 24, 2025",
-      description: "Enlightened University community on tuberculosis",
-      image: [tbday],
     },
      {
       title: "Museum Visitation",
@@ -54,6 +48,12 @@ export default function EventsSection() {
       description: "State of association discussion",
       image: [congress],
     },
+    {
+      title: "World AMR Awareness Week",
+      date: "November 18, 2025", 
+      description: "Participating in AMR advocacy",
+      image:[waw25],
+    }
   ];
 
   return (
