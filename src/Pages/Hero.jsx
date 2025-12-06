@@ -7,7 +7,7 @@ const Hero = () => {
 
       <div className="flex flex-col  ">
         <h1 className="text-3xl text-blue-500 font-mono mt-6 mb-6">INTERNATIONAL VETERINARY STUDENTS' ASSOCIATION </h1>
-        <h2 className="text-2xl text-blue-400 mb-4">ABU ZARIA MEMBER ORGANIZATION</h2>
+        <h2 className="text-2xl text-blue-400 mb-4">ABU ZARIA LOCAL MEMBER ORGANIZATION</h2>
 
         <p className="text-xl text-slate-600 mb-2">Empowering Next Generation of Veterinarians </p>
         <p className="text-lg text-slate-500">Welcome to IVSA ABU ZARIA, a Vibrant community of Veterinary Medical Students Dedicated To Promoting Excellence In Veterinary Medicine Through Animal Health, Public Welfare, Collaboration and Community Service. </p>
